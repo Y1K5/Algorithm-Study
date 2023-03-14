@@ -1,1 +1,1 @@
-# practice
+# Algorithm Study
