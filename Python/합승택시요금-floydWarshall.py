@@ -29,11 +29,11 @@ def solution(n, s, a, b, fares):
         # 이어진 경로가 없는 경우(INF)는 min 조건에 의해 자동으로 고려되지 않음
         answer = min(answer, graph[s][i] + graph[i][a] + graph[i][b])
 
-if __name__ == "__main__":
-    input = sys.stdin.readline
-    n,s,a,b = map(int, input().split())
+# if __name__ == "__main__":
+#     input = sys.stdin.readline
+#     n,s,a,b = map(int, input().split())
 
-    i = 9;
-    fares=[list(map(int, input().split())) for _ in range(i)]
-    answer = solution(n,s,a,b, fares)
-    print(answer)
+#     i = 9;
+#     fares=[list(map(int, input().split())) for _ in range(i)]
+#     answer = solution(n,s,a,b, fares)
+#     print(answer)
