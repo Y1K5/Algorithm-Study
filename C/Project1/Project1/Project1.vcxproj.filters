@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\카카오프렌즈컬러링북.cpp">
+    <ClCompile Include="카카오프렌즈컬러링북.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
